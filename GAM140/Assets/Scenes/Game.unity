@@ -219,21 +219,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 969.30963, y: 33.507507}
+  scrollPos: {x: 493.9212, y: -19.80318}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 604
-  zoom: 0.5643481
+  zoom: 0.9543477
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 17332369}
-  selectedCommands:
-  - {fileID: 17332389}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -302,7 +300,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.83624
     y: 125.625854
-    width: 149.22954
+    width: 152.68793
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -640,7 +638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: 'Well im out. Ill swing by the resaurant in an hour. '
+  storyText: 'Im a free man now Tony, ill swing by the resaurant in an hour. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -711,7 +709,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &17332382
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -736,7 +734,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &17332383
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -763,7 +761,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &17332384
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -775,7 +773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  storyText: 'Well im out. Ill swing by the resaurant in an hour. '
+  storyText: 'Im a free man Tony, Ill swing by the resaurant in an hour. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -790,7 +788,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &17332385
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -817,7 +815,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &17332386
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -846,7 +844,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &17332387
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -876,7 +874,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &17332388
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -888,9 +886,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 263.03433
+    x: 259.89087
     y: 223.88884
-    width: 143.91367
+    width: 148.49658
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1084,9 +1082,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -46.343815
-    y: 221.40228
-    width: 191.75648
+    x: -41.104633
+    y: 220.35445
+    width: 196.69705
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
