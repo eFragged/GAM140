@@ -203,6 +203,12 @@ GameObject:
   - component: {fileID: 17332437}
   - component: {fileID: 17332436}
   - component: {fileID: 17332435}
+  - component: {fileID: 17332450}
+  - component: {fileID: 17332449}
+  - component: {fileID: 17332448}
+  - component: {fileID: 17332447}
+  - component: {fileID: 17332446}
+  - component: {fileID: 17332445}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -269,11 +275,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 853.964, y: -271.03668}
+  scrollPos: {x: 823.10815, y: -233.67914}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 604
-  zoom: 1
+  zoom: 0.79000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -281,7 +287,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 17332439}
+  - {fileID: 17332446}
   selectedCommands: []
   variables:
   - {fileID: 17332424}
@@ -356,7 +362,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.83624
     y: 126.625854
-    width: 151
+    width: 163.92404
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -948,7 +954,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 261.1567
     y: 183.38249
-    width: 147
+    width: 156.3291
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1146,7 +1152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -48.901287
     y: 183.37973
-    width: 195
+    width: 210.75946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1259,9 +1265,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 115.11642
-    y: 228.30864
-    width: 120
+    x: 120.18013
+    y: 233.3727
+    width: 123.41771
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1568,7 +1574,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -92.82543
     y: 296.04996
-    width: 120
+    width: 120.88606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1595,9 +1601,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 299.49823
+    x: 302.02988
     y: 296.87378
-    width: 120
+    width: 123.41771
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1605,7 +1611,8 @@ MonoBehaviour:
   blockName: Decline Job
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 17332450}
 --- !u!114 &17332414
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1726,9 +1733,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 94.05839
+    x: 98.97642
     y: 295.66766
-    width: 155
+    width: 165.18985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2133,7 +2140,7 @@ MonoBehaviour:
   - {fileID: 17332437}
 --- !u!114 &17332435
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2160,7 +2167,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &17332436
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2237,8 +2244,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -116.56866
-    y: 426.25113
+    x: -118.63052
+    y: 425.2202
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2265,8 +2272,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -296.59076
-    y: 483.1288
-    width: 120
+    y: 481.99246
+    width: 120.88606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2339,17 +2346,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -409.2801
-    y: 587.2325
-    width: 120
+    x: 467.0574
+    y: 297.15717
+    width: 152.53162
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 74
-  blockName: New Block2
+  blockName: Reputation Drop
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 17332448}
+  - {fileID: 17332447}
+  - {fileID: 17332445}
 --- !u!114 &17332444
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2364,9 +2374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 28.224426
+    x: 13.4516945
     y: 378.25726
-    width: 140
+    width: 148.73416
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2375,6 +2385,158 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList: []
+--- !u!114 &17332445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 89
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 17332446}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &17332446
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 483.221
+    y: 379.24854
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 88
+  blockName: 'Exit Car '
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &17332447
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 87
+  indentLevel: 0
+  storyText: 'Jesus Tommy, ive got these family''s making moves quickly im on the
+    backfoot here. Be quick with whatever you have to do and contact me '
+  description: 
+  character: {fileID: 2100528845}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &17332448
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 86
+  indentLevel: 0
+  storyText: "Sorry Tony theres a few things i need to sort out before i get back
+    in the game. Ill give you a call when im ready, It'll be soon trust me \n"
+  description: 
+  character: {fileID: 1960079903}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &17332449
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 195.87906
+    y: 378.77396
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 85
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &17332450
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 84
+  indentLevel: 0
+  targetFlowchart: {fileID: 17332364}
+  targetBlock: {fileID: 17332443}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &618246751
 GameObject:
   m_ObjectHideFlags: 0
