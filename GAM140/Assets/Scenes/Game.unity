@@ -185,10 +185,8 @@ GameObject:
   - component: {fileID: 17332430}
   - component: {fileID: 17332429}
   - component: {fileID: 17332428}
-  - component: {fileID: 17332427}
   - component: {fileID: 17332426}
   - component: {fileID: 17332425}
-  - component: {fileID: 17332422}
   - component: {fileID: 17332421}
   - component: {fileID: 17332434}
   - component: {fileID: 17332433}
@@ -223,6 +221,14 @@ GameObject:
   - component: {fileID: 17332443}
   - component: {fileID: 17332464}
   - component: {fileID: 17332463}
+  - component: {fileID: 17332470}
+  - component: {fileID: 17332469}
+  - component: {fileID: 17332468}
+  - component: {fileID: 17332467}
+  - component: {fileID: 17332466}
+  - component: {fileID: 17332465}
+  - component: {fileID: 17332427}
+  - component: {fileID: 17332422}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -290,11 +296,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 364.04788, y: 238.02258}
+  scrollPos: {x: 540.9428, y: 320.3153}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 604
-  zoom: 0.85000014
+  zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -302,9 +308,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 17332444}
-  selectedCommands:
-  - {fileID: 17332463}
+  - {fileID: 17332470}
+  selectedCommands: []
   variables:
   - {fileID: 17332424}
   - {fileID: 17332423}
@@ -378,7 +383,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.83624
     y: 126.625854
-    width: 155.88232
+    width: 144.73682
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -971,7 +976,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 261.1567
     y: 183.38249
-    width: 148.82352
+    width: 143.42102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1169,7 +1174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -48.901287
     y: 183.37973
-    width: 199.41174
+    width: 186.84207
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1597,7 +1602,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 56
   blockName: Accept Job
-  description: 
+  description: 'Keeps rep at 100 '
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 17332459}
@@ -1619,15 +1624,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 302.02988
+    x: 297.63425
     y: 296.87378
-    width: 181.76468
+    width: 172.36838
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 55
   blockName: Decline Job / Rep drop
-  description: 
+  description: 'Annoys Tony. drops rep to 25. '
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 17332458}
@@ -1752,9 +1757,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 98.97642
+    x: 101.32935
     y: 295.66766
-    width: 157.0588
+    width: 146.05261
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1833,61 +1838,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 17332361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 67
+  itemId: 116
   indentLevel: 0
-  variable: {fileID: 17332424}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 1
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
+  storyText: 'If you dont do anything to help me get Tony youll be back inside anyway.
+    I suggest you find a way to make this work. '
+  description: 
+  character: {fileID: 1960079903}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &17332423
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1957,23 +1926,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 17332361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 641.2798
-    y: 129.34357
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 66
-  blockName: 'Variables '
+  itemId: 115
+  indentLevel: 0
+  storyText: 'Yes but if i fail youll then have dirt on me to put me back inside i
+    know how you lot play. '
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 17332422}
+  character: {fileID: 1960079903}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &17332428
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2149,7 +2120,7 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 68
   blockName: First Job
-  description: 'Oppertunity to get back reputation '
+  description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 17332432}
@@ -2394,7 +2365,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -21.90683
     y: 516.2771
-    width: 141.7647
+    width: 134.21051
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2403,8 +2374,8 @@ MonoBehaviour:
   description: Keeps up reputation
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 17332455}
   - {fileID: 17332463}
+  - {fileID: 17332455}
 --- !u!114 &17332445
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2438,8 +2409,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 333.38242
-    y: 555.04083
+    x: 324.04343
+    y: 439.63156
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2450,6 +2421,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 17332462}
+  - {fileID: 17332468}
 --- !u!114 &17332447
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2502,8 +2474,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -97.52017
-    y: 606.2784
+    x: -102.75547
+    y: 600.3959
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2759,9 +2731,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -184.0152
-    y: 515.7774
-    width: 126.47057
+    x: -189.89754
+    y: 519.11346
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3079,7 +3051,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &17332463
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3106,7 +3078,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &17332464
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3132,6 +3104,166 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &17332465
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 114
+  indentLevel: 0
+  storyText: 'Well do them then.. I need as much on him as i can. '
+  description: 
+  character: {fileID: 618246752}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &17332466
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 113
+  indentLevel: 0
+  storyText: What have you got for me?
+  description: 
+  character: {fileID: 618246752}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &17332467
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 112
+  indentLevel: 0
+  storyText: Tony is trying to get me back on jobs straight away.
+  description: 
+  character: {fileID: 1960079903}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &17332468
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  indentLevel: 0
+  targetFlowchart: {fileID: 17332364}
+  targetBlock: {fileID: 17332470}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &17332469
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  indentLevel: 0
+  storyText: Detective..
+  description: 
+  character: {fileID: 1960079903}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &17332470
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 299.4631
+    y: 595.78864
+    width: 171.0526
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 88
+  blockName: Phone call to detective
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 17332469}
+  - {fileID: 17332466}
+  - {fileID: 17332467}
+  - {fileID: 17332465}
+  - {fileID: 17332427}
+  - {fileID: 17332422}
 --- !u!1 &618246751
 GameObject:
   m_ObjectHideFlags: 0
