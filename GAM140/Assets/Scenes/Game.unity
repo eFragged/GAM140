@@ -203,15 +203,11 @@ GameObject:
   - component: {fileID: 17332449}
   - component: {fileID: 17332446}
   - component: {fileID: 17332462}
-  - component: {fileID: 17332461}
-  - component: {fileID: 17332460}
   - component: {fileID: 17332459}
   - component: {fileID: 17332458}
   - component: {fileID: 17332457}
   - component: {fileID: 17332456}
-  - component: {fileID: 17332455}
   - component: {fileID: 17332454}
-  - component: {fileID: 17332453}
   - component: {fileID: 17332452}
   - component: {fileID: 17332451}
   - component: {fileID: 17332450}
@@ -229,6 +225,19 @@ GameObject:
   - component: {fileID: 17332465}
   - component: {fileID: 17332427}
   - component: {fileID: 17332422}
+  - component: {fileID: 17332477}
+  - component: {fileID: 17332476}
+  - component: {fileID: 17332475}
+  - component: {fileID: 17332472}
+  - component: {fileID: 17332471}
+  - component: {fileID: 17332460}
+  - component: {fileID: 17332453}
+  - component: {fileID: 17332461}
+  - component: {fileID: 17332455}
+  - component: {fileID: 17332473}
+  - component: {fileID: 17332478}
+  - component: {fileID: 17332474}
+  - component: {fileID: 17332479}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -276,7 +285,6 @@ MonoBehaviour:
   eventHandler: {fileID: 17332362}
   commandList:
   - {fileID: 17332396}
-  - {fileID: 17332461}
   - {fileID: 17332366}
   - {fileID: 17332371}
   - {fileID: 17332375}
@@ -296,11 +304,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 540.9428, y: 320.3153}
+  scrollPos: {x: 828.4472, y: -384.52542}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 604
-  zoom: 0.7600002
+  blockViewHeight: 610
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -308,7 +316,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 17332470}
+  - {fileID: 17332449}
   selectedCommands: []
   variables:
   - {fileID: 17332424}
@@ -383,7 +391,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.83624
     y: 126.625854
-    width: 144.73682
+    width: 159.75607
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -458,7 +466,6 @@ MonoBehaviour:
   - {fileID: 17332405}
   - {fileID: 17332390}
   - {fileID: 17332389}
-  - {fileID: 17332460}
 --- !u!114 &17332370
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -976,7 +983,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 261.1567
     y: 183.38249
-    width: 143.42102
+    width: 152.439
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1174,7 +1181,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -48.901287
     y: 183.37973
-    width: 186.84207
+    width: 204.87802
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1289,7 +1296,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 120.18013
     y: 233.3727
-    width: 120
+    width: 120.73169
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1626,7 +1633,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 297.63425
     y: 296.87378
-    width: 172.36838
+    width: 186.58534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1757,9 +1764,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 101.32935
-    y: 295.66766
-    width: 146.05261
+    x: 102.32935
+    y: 296.66766
+    width: 160.97559
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1827,8 +1834,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 0
-  key: MyBool2
-  value: 1
+  key: NotMet
+  value: 0
 --- !u!114 &17332422
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1869,9 +1876,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 705fa1ac97df74e3a84ff952ffd923f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
+  scope: 0
   key: Rep
-  value: 100
+  value: 0
 --- !u!114 &17332424
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1884,9 +1891,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 1
-  key: MyBool
-  value: 0
+  scope: 0
+  key: HaveMet
+  value: 1
 --- !u!114 &17332425
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2235,7 +2242,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -235.18372
-    y: 446.04984
+    y: 444.95093
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2363,9 +2370,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -21.90683
-    y: 516.2771
-    width: 134.21051
+    x: -16.482468
+    y: 521.8065
+    width: 145.12193
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2374,8 +2381,9 @@ MonoBehaviour:
   description: Keeps up reputation
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 17332463}
   - {fileID: 17332455}
+  - {fileID: 17332463}
+  - {fileID: 17332476}
 --- !u!114 &17332445
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2409,8 +2417,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 324.04343
-    y: 439.63156
+    x: 329.7126
+    y: 433.10046
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2474,8 +2482,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -102.75547
-    y: 600.3959
+    x: -100.69309
+    y: 612.8263
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2484,7 +2492,15 @@ MonoBehaviour:
   blockName: New Block
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 17332453}
+  - {fileID: 17332475}
+  - {fileID: 17332474}
+  - {fileID: 17332473}
+  - {fileID: 17332472}
+  - {fileID: 17332471}
+  - {fileID: 17332479}
+  - {fileID: 17332460}
 --- !u!114 &17332450
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2573,13 +2589,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 17332361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 99
+  itemId: 134
   indentLevel: 0
+  compareOperator: 0
   variable: {fileID: 17332423}
-  setOperator: 0
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -2588,7 +2604,7 @@ MonoBehaviour:
     integerVal: 0
   floatData:
     floatRef: {fileID: 0}
-    floatVal: 50
+    floatVal: 100
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
@@ -2655,7 +2671,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &17332455
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2665,7 +2681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 97
+  itemId: 139
   indentLevel: 0
   variable: {fileID: 17332423}
   setOperator: 0
@@ -2731,9 +2747,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -189.89754
-    y: 519.11346
-    width: 120
+    x: -192.09534
+    y: 518.0146
+    width: 129.26828
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2742,8 +2758,9 @@ MonoBehaviour:
   description: 'Brings down reputation '
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 17332461}
   - {fileID: 17332464}
-  - {fileID: 17332453}
+  - {fileID: 17332477}
 --- !u!114 &17332457
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2902,64 +2919,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 17332361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 92
+  itemId: 127
   indentLevel: 0
-  variable: {fileID: 17332423}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 10
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
-  animatorData:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 0}
-  audioSourceData:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 0}
-  colorData:
-    colorRef: {fileID: 0}
-    colorVal: {r: 0, g: 0, b: 0, a: 0}
-  gameObjectData:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  materialData:
-    materialRef: {fileID: 0}
-    materialVal: {fileID: 0}
-  objectData:
-    objectRef: {fileID: 0}
-    objectVal: {fileID: 0}
-  rigidbody2DData:
-    rigidbody2DRef: {fileID: 0}
-    rigidbody2DVal: {fileID: 0}
-  spriteData:
-    spriteRef: {fileID: 0}
-    spriteVal: {fileID: 0}
-  textureData:
-    textureRef: {fileID: 0}
-    textureVal: {fileID: 0}
-  transformData:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  vector2Data:
-    vector2Ref: {fileID: 0}
-    vector2Val: {x: 0, y: 0}
-  vector3Data:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &17332461
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2969,7 +2936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 91
+  itemId: 138
   indentLevel: 0
   variable: {fileID: 17332423}
   setOperator: 0
@@ -2981,7 +2948,7 @@ MonoBehaviour:
     integerVal: 0
   floatData:
     floatRef: {fileID: 0}
-    floatVal: 0
+    floatVal: 50
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
@@ -3247,13 +3214,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 299.4631
-    y: 595.78864
-    width: 171.0526
+    x: 296.63376
+    y: 599.5222
+    width: 190.24387
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 88
+  itemId: 117
   blockName: Phone call to detective
   description: 
   eventHandler: {fileID: 0}
@@ -3264,6 +3231,212 @@ MonoBehaviour:
   - {fileID: 17332465}
   - {fileID: 17332427}
   - {fileID: 17332422}
+--- !u!114 &17332471
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 124
+  indentLevel: 1
+  storyText: I told you not to kill anybody Tommy. This better not come back on me
+    or it'll be your head.
+  description: 
+  character: {fileID: 2100528845}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &17332472
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 1
+  storyText: 'Tony i got the money ill come by shortly. I had to shoot one of them
+    though '
+  description: 
+  character: {fileID: 1960079903}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &17332473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 140
+  indentLevel: 0
+--- !u!114 &17332474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 142
+  indentLevel: 1
+  targetFlowchart: {fileID: 17332364}
+  targetBlock: {fileID: 17332478}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &17332475
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  indentLevel: 1
+  storyText: 'Tony i got the money ill come by shortly. '
+  description: 
+  character: {fileID: 1960079903}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &17332476
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 119
+  indentLevel: 0
+  targetFlowchart: {fileID: 17332364}
+  targetBlock: {fileID: 17332449}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &17332477
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 118
+  indentLevel: 0
+  targetFlowchart: {fileID: 17332364}
+  targetBlock: {fileID: 17332449}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &17332478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -103.70825
+    y: 694.2281
+    width: 121.9512
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 141
+  blockName: New Block1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &17332479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17332361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 143
+  indentLevel: 1
+  targetFlowchart: {fileID: 17332364}
+  targetBlock: {fileID: 17332478}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &618246751
 GameObject:
   m_ObjectHideFlags: 0
