@@ -1222,6 +1222,8 @@ GameObject:
   - component: {fileID: 1980925221}
   - component: {fileID: 1980925220}
   - component: {fileID: 1980925217}
+  - component: {fileID: 1980925223}
+  - component: {fileID: 1980925222}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1868,6 +1870,8 @@ MonoBehaviour:
   - {fileID: 1980925193}
   - {fileID: 1980925190}
   - {fileID: 1980925200}
+  - {fileID: 1980925222}
+  - {fileID: 1980925223}
 --- !u!114 &1980925183
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3039,6 +3043,46 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1980925222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+--- !u!114 &1980925223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  indentLevel: 0
+  targetFlowchart: {fileID: 1980925162}
+  targetBlock: {fileID: 1980925217}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &2058608507
 GameObject:
   m_ObjectHideFlags: 0
