@@ -744,7 +744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Aiko
-  nameColor: {r: 0.9811321, g: 0.7821289, b: 0.944211, a: 1}
+  nameColor: {r: 0.9622642, g: 0.30411178, b: 0.8461195, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: efe6cd7b901dbcc4b98f09ad6424f008, type: 3}
@@ -1148,7 +1148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Miki
-  nameColor: {r: 0.745105, g: 0.9811321, b: 0.9164905, a: 1}
+  nameColor: {r: 0.26352793, g: 0.8867924, b: 0.72058856, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 421732db9bac2ec429a84eb122276fb9, type: 3}
@@ -1238,7 +1238,6 @@ GameObject:
   - component: {fileID: 1980925243}
   - component: {fileID: 1980925242}
   - component: {fileID: 1980925241}
-  - component: {fileID: 1980925240}
   - component: {fileID: 1980925239}
   - component: {fileID: 1980925238}
   - component: {fileID: 1980925237}
@@ -1282,12 +1281,19 @@ GameObject:
   - component: {fileID: 1980925276}
   - component: {fileID: 1980925275}
   - component: {fileID: 1980925274}
-  - component: {fileID: 1980925273}
-  - component: {fileID: 1980925272}
-  - component: {fileID: 1980925271}
   - component: {fileID: 1980925270}
   - component: {fileID: 1980925269}
   - component: {fileID: 1980925268}
+  - component: {fileID: 1980925283}
+  - component: {fileID: 1980925282}
+  - component: {fileID: 1980925281}
+  - component: {fileID: 1980925240}
+  - component: {fileID: 1980925273}
+  - component: {fileID: 1980925272}
+  - component: {fileID: 1980925271}
+  - component: {fileID: 1980925286}
+  - component: {fileID: 1980925285}
+  - component: {fileID: 1980925284}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1356,11 +1362,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -113.3256, y: 63.43731}
+  scrollPos: {x: 60.423355, y: 160.10826}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 421
-  zoom: 1
+  zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1368,7 +1374,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1980925253}
+  - {fileID: 1980925286}
   selectedCommands: []
   variables:
   - {fileID: 1980925186}
@@ -1462,7 +1468,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 321.9011
     y: 51
-    width: 125
+    width: 121.87496
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1917,7 +1923,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 465.64813
     y: -33.3077
-    width: 169
+    width: 159.37494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2038,9 +2044,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 471.26123
+    x: 469.06342
     y: 218.78047
-    width: 161
+    width: 153.12494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2145,7 +2151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 522.00543
+    x: 519.8076
     y: 106.638214
     width: 120
     height: 40
@@ -2581,9 +2587,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 666.6586
-    y: 103.3334
-    width: 226
+    x: 665.55975
+    y: 105.5312
+    width: 215.62491
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2599,7 +2605,10 @@ MonoBehaviour:
   - {fileID: 1980925216}
   - {fileID: 1980925218}
   - {fileID: 1980925219}
+  - {fileID: 1980925282}
+  - {fileID: 1980925281}
   - {fileID: 1980925240}
+  - {fileID: 1980925283}
   - {fileID: 1980925237}
   - {fileID: 1980925235}
   - {fileID: 1980925213}
@@ -2624,14 +2633,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  display: 1
+  display: 2
   stage: {fileID: 0}
   character: {fileID: 195497979}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 2703b460586a0a74c819e1daa4efd265, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 14148280}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -2964,7 +2973,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 694.2893
     y: -32.926956
-    width: 133
+    width: 128.12497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3375,8 +3384,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 935.8032
-    y: 214.11676
-    width: 172
+    y: 215.21567
+    width: 162.49994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3406,9 +3415,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 949.94543
-    y: 99.94116
-    width: 152
+    x: 952.1432
+    y: 104.33676
+    width: 145.31244
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3439,7 +3448,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 945.711
     y: -0.4706471
-    width: 168
+    width: 159.37494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3692,11 +3701,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1980925159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 79
-  indentLevel: 0
+  itemId: 135
+  indentLevel: 1
+  text: 'Say something mean. '
+  description: 
+  targetBlock: {fileID: 1980925229}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1980925241
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3995,14 +4015,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1164.5122
-    y: 100.62602
-    width: 120
+    x: 1155.3839
+    y: 104.58045
+    width: 176.56244
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 113
-  blockName: New Block
+  blockName: 'Third Characters Room '
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -4011,6 +4031,7 @@ MonoBehaviour:
   - {fileID: 1980925270}
   - {fileID: 1980925280}
   - {fileID: 1980925274}
+  - {fileID: 1980925285}
   - {fileID: 1980925279}
   - {fileID: 1980925271}
   - {fileID: 1980925268}
@@ -4458,7 +4479,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1980925268
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4485,7 +4506,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1980925269
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4512,7 +4533,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1980925270
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4539,64 +4560,70 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1980925271
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980925159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 127
+  itemId: 138
   indentLevel: 1
   duration: 3
-  targetAlpha: 1
+  fadeOut: 1
+  targetView: {fileID: 1740417816}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
 --- !u!114 &1980925272
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980925159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 126
+  itemId: 137
   indentLevel: 1
   duration: 3
-  targetAlpha: 1
+  fadeOut: 1
+  targetView: {fileID: 1740417816}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
 --- !u!114 &1980925273
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980925159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 125
+  itemId: 136
   indentLevel: 1
   duration: 3
-  targetAlpha: 1
+  fadeOut: 1
+  targetView: {fileID: 1740417816}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
 --- !u!114 &1980925274
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4610,7 +4637,7 @@ MonoBehaviour:
   indentLevel: 1
   text: 'Go out for lunch '
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 1980925286}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -4621,7 +4648,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1980925275
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4635,7 +4662,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1980925276
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4649,7 +4676,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1980925277
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4676,7 +4703,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1980925278
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4703,7 +4730,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1980925279
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4767,7 +4794,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1980925280
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4792,6 +4819,145 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1980925281
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  indentLevel: 1
+  text: 'Say something neutral '
+  description: 
+  targetBlock: {fileID: 1980925230}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1980925282
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 133
+  indentLevel: 1
+  text: 'Say something nice '
+  description: 
+  targetBlock: {fileID: 1980925231}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1980925283
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 132
+  indentLevel: 0
+--- !u!114 &1980925284
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1409.5018
+    y: 29.889996
+    width: 131.24995
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 141
+  blockName: BedroomView1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &1980925285
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 140
+  indentLevel: 1
+  text: 'Go back to room '
+  description: 
+  targetBlock: {fileID: 1980925284}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1980925286
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1414.1814
+    y: 175.19707
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 139
+  blockName: 'Restaurant '
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
 --- !u!1 &2058608507
 GameObject:
   m_ObjectHideFlags: 0
