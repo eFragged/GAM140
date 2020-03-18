@@ -1276,7 +1276,6 @@ GameObject:
   - component: {fileID: 1980925267}
   - component: {fileID: 1980925280}
   - component: {fileID: 1980925279}
-  - component: {fileID: 1980925278}
   - component: {fileID: 1980925277}
   - component: {fileID: 1980925276}
   - component: {fileID: 1980925275}
@@ -1294,6 +1293,13 @@ GameObject:
   - component: {fileID: 1980925286}
   - component: {fileID: 1980925285}
   - component: {fileID: 1980925284}
+  - component: {fileID: 1980925292}
+  - component: {fileID: 1980925291}
+  - component: {fileID: 1980925290}
+  - component: {fileID: 1980925289}
+  - component: {fileID: 1980925288}
+  - component: {fileID: 1980925287}
+  - component: {fileID: 1980925278}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1374,8 +1380,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1980925286}
-  selectedCommands: []
+  - {fileID: 1980925229}
+  selectedCommands:
+  - {fileID: 1980925257}
   variables:
   - {fileID: 1980925186}
   description: 
@@ -3384,7 +3391,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 935.8032
-    y: 215.21567
+    y: 216.77817
     width: 162.49994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3416,7 +3423,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 952.1432
-    y: 104.33676
+    y: 102.77426
     width: 145.31244
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4015,8 +4022,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1155.3839
-    y: 104.58045
+    x: 1156.9464
+    y: 106.14295
     width: 176.56244
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4035,11 +4042,14 @@ MonoBehaviour:
   - {fileID: 1980925279}
   - {fileID: 1980925271}
   - {fileID: 1980925268}
-  - {fileID: 1980925278}
+  - {fileID: 1980925289}
+  - {fileID: 1980925288}
+  - {fileID: 1980925287}
   - {fileID: 1980925276}
   - {fileID: 1980925272}
   - {fileID: 1980925269}
   - {fileID: 1980925277}
+  - {fileID: 1980925278}
   - {fileID: 1980925275}
 --- !u!114 &1980925254
 MonoBehaviour:
@@ -4142,7 +4152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 109
   indentLevel: 0
-  storyText: Hey April hey Miki. You need to clean your room its a mess
+  storyText: Hey April Hey Miki. You need to clean your room April. Its a mess!
   description: 
   character: {fileID: 195497979}
   portrait: {fileID: 0}
@@ -4688,9 +4698,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 121
   indentLevel: 1
-  storyText: 
+  storyText: Jamie maybe you should go back to your room now i have saome things i
+    need to do.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 863272733}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4703,31 +4714,29 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1980925278
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980925159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 120
+  itemId: 148
   indentLevel: 1
-  storyText: 
+  text: 'Go back to room '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetBlock: {fileID: 1980925284}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!114 &1980925279
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4907,7 +4916,10 @@ MonoBehaviour:
   blockName: BedroomView1
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1980925292}
+  - {fileID: 1980925291}
+  - {fileID: 1980925290}
 --- !u!114 &1980925285
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4958,6 +4970,161 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList: []
+--- !u!114 &1980925287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 147
+  indentLevel: 1
+  text: 'Go back to room '
+  description: 
+  targetBlock: {fileID: 1980925284}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1980925288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 146
+  indentLevel: 1
+  text: 'Go out for lunch '
+  description: 
+  targetBlock: {fileID: 1980925286}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1980925289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 145
+  indentLevel: 1
+  storyText: Would you guys like to go out for lunch, im hungy!
+  description: 
+  character: {fileID: 863272733}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1980925290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 144
+  indentLevel: 0
+  duration: 3
+  fadeOut: 1
+  targetView: {fileID: 1740417816}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &1980925291
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 143
+  indentLevel: 0
+  storyText: 'Im tired, im probably going to head back to my room. '
+  description: 
+  character: {fileID: 195497979}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1980925292
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980925159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 142
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 195497979}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ec7640e8af1ced94aaccf972f470e55b, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 14148280}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &2058608507
 GameObject:
   m_ObjectHideFlags: 0
